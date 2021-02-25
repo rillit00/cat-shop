@@ -1,0 +1,332 @@
+
+@media screen and (max-width:1330px) {
+    #logo {
+        padding-left: 50px;
+    }
+    #label {
+        padding-left: 50px;
+    }
+    .sort {
+        padding-left:90px;
+    }
+    .goods {
+        max-width: 1200px;
+    }
+    .img::before {
+        width: 40px;
+        height:40px;
+    }
+    .img:hover::before {
+        width: 50px;
+        height:45px;
+    }
+}
+@media screen and (max-width:1220px) {
+    .grid {
+        max-width: 1100px;
+    }
+    .goods {
+        max-width: 1100px;
+    }
+    .cart {
+       width: 340px;
+    }
+    .cart h4, .cart h3 {
+        font-size: 90%;
+    }
+    .img img {
+        width: 340px;
+        height: 250px;
+    }
+    .sort {
+        padding-left: 80px;
+    }
+    .flex {
+        max-width: 1100px;
+    }
+    .img::before,.img:hover::before  {
+        left:280px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .grid {
+        max-width: 1100px;
+    }
+    .goods {
+        max-width: 1000px;
+    }
+    .cart {
+       width: 300px;
+    }
+    .cart h4, .cart h3 {
+        font-size: 80%;
+    }
+    .img img {
+        width: 300px;
+        height: 200px;
+    }
+    .sort {
+        padding-left: 80px;
+    }
+    .img::before, .img:hover::before,  .img:active::before {
+        left: 230px;
+    }
+    .img:active::before {
+        width: 40px;
+        height: 36px;
+    }
+    .flex {
+        max-width: 1000px;
+    }
+    .down {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .media_flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .age, .paws{
+        padding-left: 40px;
+    }
+    .cart h3, .cart h4, .before {
+        padding-left: 20px;
+    }
+    .phone {
+        padding-top:30px;
+        -ms-grid-column:10;
+        -ms-grid-column-span:2;
+        grid-column:10/12;
+        font-size: 80%;
+    }
+    .phone a, .phone p {
+        font-size: 14px;
+    }
+    .phone p {
+       margin-left: 10px;
+    }
+    
+}
+
+@media screen and (max-width:885px) {
+    .flex {
+        max-width: 800px;
+    }
+    .img::before, .img:hover::before,  .img:active::before {
+        left: 230px;
+        background-size: 60% 60%;
+    }
+    #label {
+        font-size: 90%;
+    }
+
+    .sale::after,.sale:hover::after,.sale:not(:hover)::after {
+        font-size: 12px;
+        width: 30px;
+        height: 15px;
+    }
+}
+@media screen and (max-width:800px) {
+    .flex {
+        max-width: 600px;
+    }
+    .paws {
+        width: 50px;
+    }
+    .img::before, .img:hover::before,  .img:active::before {
+        left: 250px;
+    }
+    #submit {
+        margin-bottom:20px;
+    }
+    .grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    .menu ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .menu ul li a {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:680px) {
+    .flex {
+        max-width: 600px;
+    }
+    .flex h2 {
+        font-size: 32px;
+    }
+    #logo {
+        width: 50px;
+        height: 50px;
+    }
+    .cart {
+        width: 230px;
+    }
+    .paws {
+        padding-left: 20px;
+    }
+    .img::before, .img:hover::before,  .img:active::before {
+        left: 250px;
+    }
+    .goods {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 550px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .cart {
+    width: 220px;
+    }
+    .img img {
+        width: 220px;
+    }
+    .img::before, .img:hover::before,  .img:active::before {
+        left: 170px;
+    }
+    #mail {
+        text-indent: 20px;
+        width: 200px;
+        height: 45px;
+    }
+    #submit {
+        font-size: 90%;
+        width: 150px;
+        height: 45px;
+    }
+    .show {
+        margin: 30px auto;
+        padding-left: 60px;
+    }
+    .show button {
+            width:300px;
+            height:45px;
+    }
+    .labels h2 {
+        font-size: 25px;
+    }
+    .labels h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:550px) {
+
+    #label {
+        padding-left:5px;
+    }
+    .flex {
+        max-width: 530px;
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width:510px) {
+    #logo {
+        width: 30px;
+        height: 30px;
+        padding-left: 10px;
+    } 
+    .sort p, .sort h6 {
+        font-size:14px;
+    }
+}
+@media screen and (max-width:445px) {
+    .menu ul li a {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px;
+    }
+    .phone a {
+        font-size: 14px;
+    }
+    #label {
+        font-size: 10px;
+    }
+    .sort {
+        padding-left:30px;
+    }
+    .labels h2 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .labels h3 {
+        font-size: 15px;
+    }
+    #mail{
+        text-indent: 10px;
+        width: 180px;
+        height: 35px;
+        font-size: 12px;
+    }
+    #submit {
+       
+        width: 130px;
+        height: 35px;
+    }
+    .flex {
+        max-width: 400px;
+        margin-left: 20px;
+    }
+    #submit {
+        font-size: 14px;
+    }
+    .labels h3 {
+        font-size:12px;
+    }
+    .show button {
+        font-size: 15px;
+        width: 230px;
+        height: 35px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:375px) {
+    #logo {
+        padding-left: 5px;
+    }
+   #mail {
+    width: 150px;
+    }
+    .flex {
+        max-width: 350px;
+    }
+}
+@media screen and (max-width:325px) {
+    #logo {
+        padding-left: 5px;
+        position: absolute;
+        left: 35px;
+        top: -20px;
+    }
+    .flex {
+        max-width: 300px;
+    }
+    #label {
+        position: absolute;
+        left: 200px;
+        top: 70px;
+    }
+}
